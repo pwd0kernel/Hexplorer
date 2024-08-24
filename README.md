@@ -1,6 +1,6 @@
 # Hexplorer
 
-![Hexplorer CLI]([placeholder_for_cli_image.png](https://raw.githubusercontent.com/pwd0kernel/Hexplorer/main/Screenshot%20from%202024-08-24%2020-08-59.png))
+![Hexplorer CLI](https://raw.githubusercontent.com/pwd0kernel/Hexplorer/main/Screenshot%20from%202024-08-24%2020-08-59.png)
 
 Hexplorer is an advanced, user-friendly hex editor designed for efficient binary file analysis and manipulation. Built with Python, it offers a feature-rich command-line interface that combines powerful functionality with intuitive controls.
 
