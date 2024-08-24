@@ -31,11 +31,6 @@ Hexplorer is an advanced, user-friendly hex editor designed for efficient binary
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-4. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
 ## Usage
 
 To start Hexplorer, run:
