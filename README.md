@@ -10,7 +10,6 @@ Hexplorer is an advanced, user-friendly hex editor designed for efficient binary
 - Advanced search functionality with forward and backward search
 - In-place editing capabilities
 - Bookmarking system for quick navigation
-- String extraction utility for easy text analysis
 - File statistics display
 - Color-coded interface for enhanced readability
 - Comprehensive help system
@@ -54,7 +53,6 @@ Replace `<filename>` with the path to the file you want to examine or edit.
 - 'b': Toggle bookmark at current position
 - 'B': Jump to next bookmark
 - 'f': Display file statistics
-- 'x': Extract and display strings
 - 'h': Show help panel
 - 's': Save changes
 - 'q': Quit the editor
