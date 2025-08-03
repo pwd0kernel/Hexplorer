@@ -1,11 +1,22 @@
 # Hexplorer
 
-![Hexplorer CLI](https://raw.githubusercontent.com/pwd0kernel/Hexplorer/main/Screenshot%20from%202024-08-24%2020-08-59.png)
+![Hexplorer GUI](https://github.com/user-attachments/assets/89de6006-8f0a-4d08-847e-f13c60f236aa)
 
-Hexplorer is an advanced, user-friendly hex editor designed for efficient binary file analysis and manipulation. Built with Python, it offers a feature-rich command-line interface that combines powerful functionality with intuitive controls.
+Hexplorer is an advanced, user-friendly hex editor designed for efficient binary file analysis and manipulation. Built with Python, it offers both a feature-rich command-line interface and a modern web-based GUI that combines powerful functionality with intuitive controls.
 
 ## Features
 
+### 🖥️ Web-based GUI (NEW!)
+- **Modern Interface**: Beautiful, responsive web-based GUI that runs in your browser
+- **File Browser**: Integrated file explorer for easy navigation
+- **Advanced Viewing**: Multiple view modes (Hex, Decimal, ASCII) with live switching
+- **Smart Search**: Real-time search with highlighting
+- **Bookmarks**: Visual bookmark system for quick navigation
+- **Dark/Light Theme**: Toggle between themes for comfort
+- **Export Options**: Export data in various formats
+- **Responsive Design**: Works on desktop and mobile devices
+
+### 📟 Command-Line Interface (Classic)
 - Multi-mode viewing: Hex, Decimal, and ASCII representations
 - Advanced search functionality with forward and backward search
 - In-place editing capabilities
@@ -32,15 +43,38 @@ Hexplorer is an advanced, user-friendly hex editor designed for efficient binary
 
 ## Usage
 
-To start Hexplorer, run:
+### 🌐 Web GUI (Recommended)
 
+To start the advanced web-based GUI:
+
+```bash
+python hexplorer_web_gui.py
 ```
+
+This will:
+1. Start a local web server (default port 8080)
+2. Automatically open your browser to the Hexplorer interface
+3. Provide a modern, feature-rich editing experience
+
+**GUI Features:**
+- **File Browser**: Click on files in the left panel to open them
+- **View Modes**: Switch between Hex, Decimal, and ASCII views
+- **Search**: Use the search bar to find patterns in your files
+- **Bookmarks**: Add bookmarks for quick navigation
+- **Themes**: Toggle between light and dark themes
+- **Export**: Export data in various formats
+
+### 📟 Command-Line Interface
+
+To start the classic CLI version:
+
+```bash
 python hexplorer.py <filename>
 ```
 
 Replace `<filename>` with the path to the file you want to examine or edit.
 
-### Key Commands
+### Key Commands (CLI Version)
 
 - Arrow keys: Navigate through the file
 - Page Up/Down: Scroll by page
